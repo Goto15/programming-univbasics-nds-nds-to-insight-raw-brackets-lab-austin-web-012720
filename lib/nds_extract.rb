@@ -20,7 +20,7 @@ def directors_totals(nds)
     dir_name = each[:name]
     result[dir_name] = 0
     
-    pp each[:movies]
+    pp each[:movies][:worldwide_gross]
   end
   
   return result
