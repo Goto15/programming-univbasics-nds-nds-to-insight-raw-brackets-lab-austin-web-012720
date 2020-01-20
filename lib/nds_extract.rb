@@ -22,6 +22,7 @@ def directors_totals(nds)
   end
   
   pp nds[dir_name]
+  pp result
   
   return result
 end
