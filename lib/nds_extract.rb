@@ -19,7 +19,7 @@ def directors_totals(nds)
   for each in nds do
     dir_name = each[:name]
     
-    pp nds[dir_name]
+    pp nds[each][:name]
     
     result[dir_name] = 0
   end
