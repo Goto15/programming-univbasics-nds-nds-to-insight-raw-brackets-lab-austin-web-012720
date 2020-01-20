@@ -29,5 +29,7 @@ def directors_totals(nds)
     result[:dir_name] = ww_gross
   end
   
+  pp result
+  
   return result
 end
