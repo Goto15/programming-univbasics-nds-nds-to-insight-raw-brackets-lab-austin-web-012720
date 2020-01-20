@@ -19,9 +19,7 @@ def directors_totals(nds)
   for each in nds do
     dir_name = each[:name]
     
-    for movie in each[:movies] do
-      pp movie
-    end
+    pp nds[dir_name]
     
     result[dir_name] = 0
   end
