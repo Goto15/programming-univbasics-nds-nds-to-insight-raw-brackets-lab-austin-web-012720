@@ -22,7 +22,7 @@ def directors_totals(nds)
   end
   
   for each in result do
-    puts directors_database[each]
+    pp directors_database[each]
   end 
   
   pp result
