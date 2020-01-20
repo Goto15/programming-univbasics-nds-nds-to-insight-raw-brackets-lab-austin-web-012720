@@ -23,7 +23,7 @@ def directors_totals(nds)
 
   for each in nds do 
     gross = 0
-    gross += each[:movies][:worldwide_gross]
+    gross += each[:movies][:worldwide_gross].to_i
     pp gross
   end
   
