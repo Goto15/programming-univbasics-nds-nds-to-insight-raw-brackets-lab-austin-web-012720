@@ -19,12 +19,8 @@ def directors_totals(nds)
   for each in nds do
     dir_name = each[:name]
     result[dir_name] = 0
-  end
-
-  for each in nds do 
-    gross = 0
-    gross += each[:movies][:worldwide_gross].to_i
-    pp gross
+    
+    pp each[:movies][:worldwide_gross]
   end
   
   return result
