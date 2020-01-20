@@ -21,7 +21,7 @@ def directors_totals(nds)
     result[dir_name] = 0
   end
 
-  pp directors_database[result[0]]
+  pp result
 
   return result
 end
