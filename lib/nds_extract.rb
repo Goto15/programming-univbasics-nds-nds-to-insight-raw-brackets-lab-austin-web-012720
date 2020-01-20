@@ -22,7 +22,7 @@ def directors_totals(nds)
   for each in nds do
     dir_name = each[:name]
     gross += nds[dir_name][:movies][:title]
-    puts gross
+    puts nds[dir_name]
     puts "---------------------------------"
     
   end
