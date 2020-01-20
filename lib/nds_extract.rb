@@ -26,7 +26,7 @@ def directors_totals(nds)
       ww_gross += movie[:worldwide_gross]
     end
     
-    result[:dir_name] = 
+    result[:dir_name] = ww_gross
   end
   
   nil
