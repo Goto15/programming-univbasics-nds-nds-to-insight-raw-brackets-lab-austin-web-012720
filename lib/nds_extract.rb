@@ -18,9 +18,10 @@ def directors_totals(nds)
   
   for each in nds do
     dir_name = each[:name]
-    puts dir_name
     result[dir_name] = 0
   end
+
+  pp directors_database
 
   return result
 end
