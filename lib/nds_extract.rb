@@ -21,10 +21,6 @@ def directors_totals(nds)
     result[dir_name] = 0
   end
   
-  for each in result do
-    pp directors_database[each]
-  end 
-  
   pp result
   
   return result
