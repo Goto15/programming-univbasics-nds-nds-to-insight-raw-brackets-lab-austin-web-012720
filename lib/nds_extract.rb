@@ -22,6 +22,7 @@ def directors_totals(nds)
   
   for each in nds do
     dir_name = each[:name]
+    puts dir_name
     ww_gross = 0
     for movie in each[:movies] do
       ww_gross += movie[:worldwide_gross]
